@@ -1,3 +1,4 @@
 #export PATH=$PATH:$PWD/sratoolkit.2.11.1-centos_linux64/bin
 #SraAccList.txt is the lists of srafiles to be download
 prefetch --option-file SraAccList.txt
+fastq-dump SRR11442498
