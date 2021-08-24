@@ -2,4 +2,5 @@
 #SraAccList.txt is the lists of srafiles to be download
 prefetch --option-file SraAccList.txt
 fastq-dump SRR11442498
-#得到fastq文件，然后进行fastqc
+#得到fastq文件，然后进行fastqc，输出到qc_result SRR11442498_fastqc.html
+#fastqc -o ./qc_result/ -t 8 ./SRR11442498.fastq SRR11442499.fastq
